@@ -49,6 +49,14 @@ img {
 .no-margin {
   margin: 0;
 }
+/*header */
+@media (min-width: 768px) {
+  .bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
 
 .site-header {
   background-image: url(../img/banner.jpg);
@@ -79,11 +87,27 @@ img {
   font-size: 1.8rem;
 }
 
+@media (min-width: 768px) {
+  .navigation a {
+    display: inline;
+    margin-right: 2rem;
+  }
+  .navigation a:last-of-type {
+    margin: 0;
+  }
+}
+
 /* text-header */
 .text-header {
   color: #ffffff;
   text-align: center;
   margin-top: 5rem;
+}
+
+@media (min-width: 768px) {
+  .text-header {
+    margin-top: 15rem;
+  }
 }
 
 .text-header p {
