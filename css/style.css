@@ -31,6 +31,7 @@ h1 {
 }
 h2 {
   font-size: 4rem;
+  line-height: 1.2;
 }
 h3 {
   font-size: 3.2rem;
@@ -153,4 +154,30 @@ img {
 
 .blog-entry:last-of-type {
   border: none;
+}
+
+/* cursos sidebar */
+
+.course-list {
+  padding: 0;
+  list-style: none;
+}
+
+.course {
+  margin-bottom: 3rem;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.course:last-of-type {
+  border-bottom: none;
+}
+
+.course p {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.course p span {
+  font-weight: 400;
 }
