@@ -58,8 +58,14 @@ img {
     display: flex;
     justify-content: space-between;
   }
+  .columnas-4 {
+    flex: 0 0 calc(33.3% - 1rem);
+  }
   .columnas-6 {
     flex: 0 0 calc(50% - 1rem);
+  }
+  .columnas-8 {
+    flex: 0 0 calc(66.6% - 1rem);
   }
 }
 
@@ -205,6 +211,7 @@ img {
 }
 
 .course {
+  padding-top: 3rem;
   margin-bottom: 3rem;
   border-bottom: 1px solid #e1e1e1;
 }
@@ -219,7 +226,8 @@ img {
   font-size: 2rem;
 }
 
-.course p span {
+.course p span,
+.course p.description {
   font-weight: 400;
 }
 
