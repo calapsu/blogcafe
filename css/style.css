@@ -143,3 +143,14 @@ img {
     order: 2;
   }
 }
+
+/* opcional */
+
+.blog-entry {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.blog-entry:last-of-type {
+  border: none;
+}
